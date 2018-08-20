@@ -14,6 +14,10 @@ nav
     font-size: 15pt;
 }
 
+#hidden
+{
+    margin: 0 0 2% 10%;
+}
 
 .nav-link:hover
 {
@@ -27,7 +31,7 @@ nav
 
 #box {
   position: absolute;
-    height: 600px;
+    height: 650px;
     width:100%;
     background: rgb(210,0,0);
 background: linear-gradient(140deg, rgba(210,0,0,1) 0%, rgba(116,6,6,1) 49%, rgba(14,13,13,1) 100%, rgba(255,0,0,1) 100%);
@@ -61,18 +65,27 @@ font-size: 20pt;
 
 #details
 {
+
     margin: 0 0 5% 10%;
     font-size: 20pt;
-    border-radius: 25px;
-    border: 2px solid rgb(210, 0, 0);
-    padding: 1%;
-    color: black;
+    border-radius: 10px;
+   
+    padding: 0.5% 2%;
+    background: rgb(210,0,0);
+background: linear-gradient(140deg, rgba(210,0,0,1) 0%, rgba(116,6,6,1) 49%, rgba(14,13,13,1) 100%, rgba(255,0,0,1) 100%);
+    color: white;
 }
 
 #details:hover
 {
-    background: rgb(240, 240, 240);
-    color: black;
+    
+     background: rgb(210,0,0);
+background: linear-gradient(140deg, rgba(210,0,0,1) 0%, rgba(116,6,6,1) 49%, rgba(14,13,13,1) 100%, rgba(255,0,0,1) 100%);
+    
+
+    border-radius: 10px;
+
+    color: white;
     text-decoration: none;
 }
 
@@ -87,6 +100,8 @@ font-size: 20pt;
     margin: 0 0 2% 10%;
     width: 60%;
 }
+
+
 #learnmore
 {
     color:white;
@@ -139,13 +154,102 @@ font-size: 20pt;
 #info
 {
     margin: 0 0 2% 10%;
-    width: 60%;
+    width: 80%;
 }
 
 #meetings
 {
     margin: 0 0 3.5% 10%;
     width: 60%;
+}
+
+#name
+{
+
+margin: 0 0 1% 10%;
+width:80%;
+
+    border-radius: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+
+}
+
+#name:focus
+{
+    outline: 0;
+    padding: 2%;
+}
+#emailaddress
+{
+     margin: 0 0 1% 10%;
+    border-radius: 10px;
+    height: 30px;
+    width: 80%;
+    border: 1px solid lightgray;
+}
+
+#emailaddress:focus
+{
+    outline: 0;
+     padding: 2%;
+}
+#message
+{
+    margin: 0 0 1% 14.25%;
+    border-radius: 10px;
+    height: 150px;
+    width: 72%;
+    border: 1px solid lightgray; 
+}
+
+#message:focus
+{
+    outline: 0;
+     padding-left: 1%;
+     padding-top:  0.5%;
+}
+
+.circle
+{
+    
+border-radius: 50%;
+width: 80%;
+height: auto;
+padding-top: 80%;
+margin-left: 10%;
+background: lightgray;
+}
+
+#send
+{
+    margin: 0 0 1% 10%;
+}
+
+.formtext
+{
+   margin: 0 0 0 10%; 
+
+}
+
+#submit
+{
+    margin: 0 0 2% 14.25%;
+    font-size: 20pt;
+    border-radius: 10px;
+   
+    padding: 0.5% 2%;
+    background: rgb(210,0,0);
+background: linear-gradient(140deg, rgba(210,0,0,1) 0%, rgba(116,6,6,1) 49%, rgba(14,13,13,1) 100%, rgba(255,0,0,1) 100%);
+    color: white;
+}
+
+#submit:focus {outline:0;}
+
+
+form
+{
+
 }
 
 nav
